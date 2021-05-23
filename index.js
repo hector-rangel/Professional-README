@@ -7,7 +7,7 @@ const questions = [
     // project title
     {
         type: 'input',
-        name: 'Project Title',
+        name: 'title',
         message: 'Title of my project:'
     },
     // description 
@@ -22,7 +22,7 @@ const questions = [
         name: 'Installation',
         message: 'What are the steps required to install your project:'
     },
-    // Usage info
+    // usage info
     {
         type: 'input',
         name: 'Usage',
@@ -33,6 +33,7 @@ const questions = [
         type: 'input',
         name: 'License',
         message: 'Let other developers know what they can and cannot do with your project:'
+        
     },
     // contributing process
     {
@@ -49,8 +50,14 @@ const questions = [
     // github username 
     {
         type:'input',
-        name: 'Questions',
+        name: 'GitHub',
         message: 'Enter link to GitHub profile for questions:'
+    },
+    // E-mail
+    {
+        type: 'input',
+        name: 'Email',
+        message: 'Enter email'
     }
 
 ];
