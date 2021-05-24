@@ -30,10 +30,10 @@ const questions = [
     },
     // license info
     {
-        type: 'input',
+        type: 'checkbox',
         name: 'License',
-        message: 'Let other developers know what they can and cannot do with your project:'
-        
+        message: 'Which license would you like to add?',
+        choices: ['MIT', 'AGPLv3.0','APACHEv2.0', 'BSLv1.0', 'CC0v1.0', '2PLv2.0', 'GPLv2.0', 'GPLv3.0', 'LGPLv2.1', 'MPLv2.0']
     },
     // contributing process
     {

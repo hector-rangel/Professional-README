@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (!license) {
     return "";
   }
-  return `[License](https://img.shields.io/badge/license-${license})`;
+  return `![License](https://img.shields.io/badge/license-${license}-informational)`;
 }
 
 // TODO: Create a function that returns the license link
@@ -18,7 +18,8 @@ function renderLicenseSection(license) {
   if (!license) {
   return "";
   }
-  return `## License`
+  return `## License This application is licensed under the terms of ${license} open source license. Please refer to [${license} License](${renderLicenseLink(license)}) for the full terms.`;
+  
 }
 
 // TODO: Create a function to generate markdown for README
@@ -39,7 +40,7 @@ function generateMarkdown(data) {
   ${data.Installation}
   ## Usage
   ${data.Usage}
-  
+
   ${renderLicenseSection(data.License)}
   ## Contributing
   ${data.Contributing}
