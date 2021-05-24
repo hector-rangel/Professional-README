@@ -10,6 +10,10 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  if (!license) {
+    return ""
+  }
+    return `https://choosealicense.com/licenses/${license}`;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -18,7 +22,7 @@ function renderLicenseSection(license) {
   if (!license) {
   return "";
   }
-  return `## License This application is licensed under the terms of ${license} open source license. Please refer to [${license} License](${renderLicenseLink(license)}) for the full terms.`;
+  return `This application is licensed under the terms of ${license} open source license. Please refer to [${license} License](${renderLicenseLink(license)}) for the full terms.`;
   
 }
 
@@ -40,7 +44,7 @@ function generateMarkdown(data) {
   ${data.Installation}
   ## Usage
   ${data.Usage}
-
+  ## License
   ${renderLicenseSection(data.License)}
   ## Contributing
   ${data.Contributing}

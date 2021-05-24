@@ -1,8 +1,8 @@
-# Professional README Generator
+# a
 
-  ![License](https://img.shields.io/badge/license-MIT-informational)
+  ![License](https://img.shields.io/badge/license-MIT,AGPLv3.0,APACHEv2.0,BSLv1.0,CC0v1.0,2PLv2.0,GPLv2.0,GPLv3.0,LGPLv2.1,MPLv2.0-informational)
   ## Description
-  Generates a professional README with user input.
+  a
   ## Table of contents
   - [Installation](#Installation)
   - [Usage](#Usage)
@@ -11,17 +11,17 @@
   - [Test](#Test) 
   - [Questions](#Questions)
   ## Installation
-  These are the steps required for using the project.
+  a
   ## Usage
-  Provide instructions and examples for use (ex: screenshots)
-
-  ## License This application is licensed under the terms of MIT open source license. Please refer to [MIT License](undefined) for the full terms.
+  a
+  ## License
+  This application is licensed under the terms of MIT,AGPLv3.0,APACHEv2.0,BSLv1.0,CC0v1.0,2PLv2.0,GPLv2.0,GPLv3.0,LGPLv2.1,MPLv2.0 open source license. Please refer to [MIT,AGPLv3.0,APACHEv2.0,BSLv1.0,CC0v1.0,2PLv2.0,GPLv2.0,GPLv3.0,LGPLv2.1,MPLv2.0 License](https://choosealicense.com/licenses/MIT,AGPLv3.0,APACHEv2.0,BSLv1.0,CC0v1.0,2PLv2.0,GPLv2.0,GPLv3.0,LGPLv2.1,MPLv2.0) for the full terms.
   ## Contributing
-  Add your guidelines to let other developers contribute.
+  a
   ## Test
-  provide test examples for people to run your application.
+  
   ## Questions
-  - GitHub: [https://github.com/hector-rangel](https://github.com/https://github.com/hector-rangel)
+  - GitHub: [](https://github.com/)
 
-  - Email: hector.rangeljr@yahoo.com
+  - Email: 
 
