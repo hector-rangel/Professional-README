@@ -29,7 +29,7 @@ THEN I am taken to the corresponding section of the README.
 ![image](https://user-images.githubusercontent.com/79381847/119284525-86f51880-bc05-11eb-8b7f-41de1b929cd8.png)
 ![image](https://user-images.githubusercontent.com/79381847/119284544-983e2500-bc05-11eb-8f13-4aff32ceaff3.png)
 ## Screen Recording
-[Screen Recoding of Application](./assets/Readme.gif)
+[Screen Recoding of Application](./Assets/Readme.gif)
 
 [Link to walkthrough](https://drive.google.com/file/d/1qERWq_xP3cyGtdi465ZH16w5tkgUCU0Q/view)
 ## GitHub 
