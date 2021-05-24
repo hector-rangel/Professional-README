@@ -26,7 +26,7 @@ const questions = [
     {
         type: 'input',
         name: 'Usage',
-        message: 'Provide instructions and examples for use:'
+        message: 'Provide instructions for use:'
     },
     // license info
     {
@@ -75,7 +75,7 @@ function init() {
     inquirer.prompt(questions)
     .then(function(userInput) {
         console.log(userInput)
-        writeToFile("README.MD", generateMarkdown(userInput));
+        writeToFile("Created README.MD", generateMarkdown(userInput));
     })
 };
 
